@@ -1,5 +1,7 @@
+//copy-paste this to the console for quick use
+//скопіюйте це до консолі браузреа для швидкого використання
 setInterval(function(){
-	$('.item').not('.patch_my').append('<button class="hide_my">hide/show</button>').addClass('patch_my');
+	$('.item').not('.patch_my').append('<button class="hide_my">сховати/відобразити відео</button>').addClass('patch_my');
 },1000)
 
 $(document).on('click', '.hide_my', function(){
