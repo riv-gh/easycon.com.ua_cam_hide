@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "easycon.com.ua_cam_hide",
+    "version": "0.2",
+    "content_scripts": [
+      {
+        "matches": [
+          "https://easycon.com.ua/conference*"
+        ],
+        "js": ["background.js"]
+      }
+    ]
+}
