@@ -5,7 +5,8 @@
     "content_scripts": [
       {
         "matches": [
-          "https://easycon.com.ua/conference*"
+          "https://easycon.com.ua/conference*",
+          "https://vkz.court.gov.ua/conference*"
         ],
         "js": ["background.js"]
       }
